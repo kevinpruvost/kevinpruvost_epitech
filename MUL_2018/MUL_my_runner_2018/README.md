@@ -1,6 +1,6 @@
 # MUL_my_runner_2018
 
-## 2nd Graphical project of the first C Graphical Programming module of the Epitech's 1st year program.
+## 2nd Graphical project of the first "C Graphical Programming" module of the Epitech's 1st year program.
 
 The My_runner project is the second graphical project of the C Graphical Module of the 1st year program of Epitech.
 
