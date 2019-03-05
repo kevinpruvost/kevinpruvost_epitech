@@ -4,7 +4,7 @@
 
 I made this project with Valentin L-Homel.
 
-In this project, we had to compute points images in a plan after several transformations that were :
+In this project, we had to compute points' images in a plan after several transformations that were :
 - Translation.
 - Scaling.
 - Rotation centered at O.
