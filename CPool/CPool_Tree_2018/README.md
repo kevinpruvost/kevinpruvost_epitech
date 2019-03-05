@@ -1,6 +1,6 @@
 # CPool_Tree_2018
 
-## Project of the C Pool of the Epitech's 1st year program.
+## Project of the "C Pool" of the Epitech's 1st year program.
 
 A project where we had to draw a tree given 1 argument, the size of it.
 The difficulty was that the size argument had to make multiple things change on the tree like in the
