@@ -9,4 +9,4 @@
 
 
 [PSU_my_printf_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_printf_2018
-[PSU_my_printf_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_sokoban_2018
+[PSU_my_sokoban_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_sokoban_2018
