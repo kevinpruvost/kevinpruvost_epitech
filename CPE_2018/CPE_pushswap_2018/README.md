@@ -19,4 +19,4 @@ But the sorting had to be made only with 2 lists and with specific commands : </
 | rrb     | rotate l_b toward the end, the last element will become the first. |
 | rrr      | rra and rrb at the same time. |
 
-At the end, we had to display the operations by listing the commands used.
+At the end, we had to display the operations by listing the used commands.
