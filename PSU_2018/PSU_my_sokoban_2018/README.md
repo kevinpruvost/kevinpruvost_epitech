@@ -1,6 +1,11 @@
-# PSU_my_printf_2018
+# PSU_my_sokoban_2018
 
-## 1st Project of the first "Unix system programming" module of the Epitech's 1st year program.
+## 2nd Project of the first "Unix system programming" module of the Epitech's 1st year program.
 
-We just had to create the printf function at his basics uses and with the primary flags we can use with
-it like "%s" or "%d". We also had to manage ' * ' and ' ' '.
+In this project, we had to recreate the Sokoban game. A game where the player had to push every </br>
+blocks of a map on a target. When every blocks stand on a target then the player wins.
+
+We had to make it only playable on the Linux terminal and with ASCII characters.
+
+Needless to say, the "ncurses" library was fundamental for this project.
+
