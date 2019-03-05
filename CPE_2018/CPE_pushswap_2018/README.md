@@ -24,3 +24,5 @@ At the end, we had to display the operations by listing the used commands.
 ![image](https://user-images.githubusercontent.com/48088392/53839826-c8536c00-3f98-11e9-92b0-f2aed95dc901.png)
 
 ![image](https://user-images.githubusercontent.com/48088392/53839854-dacda580-3f98-11e9-86ce-d392208201c0.png)
+
+The final goal was to optimize those operations with varied algorithm.
