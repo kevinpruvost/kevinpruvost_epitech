@@ -4,6 +4,7 @@
 
 The purpose of the "pushswap" project was to sort a list of numbers given in arguments. </br>
 But the sorting had to be made only with 2 lists and with specific commands : </br>
+
 | Commands | Description |
 |----------|-------------|
 | [sa]         | swap the first two elements of l_a (nothing will happen if there aren’t enough elements). |
