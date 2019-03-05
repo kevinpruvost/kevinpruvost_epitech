@@ -1,4 +1,4 @@
-#CPE_2018
+# CPE_2018
 
 ## Projects of Elementary Programming in C Modules of the Epitech's 1st year program.
 
