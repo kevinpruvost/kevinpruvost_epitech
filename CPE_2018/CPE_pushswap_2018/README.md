@@ -6,7 +6,8 @@ The purpose of the "pushswap" project was to sort a list of numbers given in arg
 But the sorting had to be made only with 2 lists and with specific commands : </br>
 | Commands | Description |
 |----------|-------------|
-| [sa]         | swap the first two elements of l_a (nothing will happen if there aren’t enough elements). | 
+| [sa]         | swap the first two elements of l_a (nothing will happen if there aren’t enough elements). |
+
 | [sb]       | swap the first two elements of l_b (nothing will happen if there aren’t enough elements). |
 | [sc]       | sa and sb at the same time. |
 | [pa]       | take the first element from l_b and move it to the first position on the l_a list (nothing will happen if l_b is empty). |
