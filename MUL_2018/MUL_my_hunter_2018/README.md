@@ -1,6 +1,6 @@
 # MUL_my_hunter_2018
 
-## 1st Graphical project of the first C Graphical Programming module of the Epitech's 1st year program.
+## 1st Graphical project of the first "C Graphical Programming" module of the Epitech's 1st year program.
 
 My_hunter is a project where we had to learn how to make our first video game thanks to the CSFML library.
 
