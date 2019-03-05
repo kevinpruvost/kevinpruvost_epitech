@@ -21,5 +21,5 @@ But the sorting had to be made only with 2 lists and with specific commands : </
 
 | Project | Language |
 |-|-|
-| [CPE_BSQ_2018]         |      C      |
-| [CPE_pushswap_2018]       |       C     |
+|[CPE_BSQ_2018]|C|
+|[CPE_pushswap_2018]|C|
