@@ -1,8 +1,8 @@
-# PSU_my_ls_2018
+# PSU_my_minishell1_2018
 
-## 1st Project of the second "Unix system programming" module of the Epitech's 1st year program.
+## 2nd Project of the second "Unix system programming" module of the Epitech's 1st year program.
 
-In this project, we just had to recreate the ls function at his basics uses.
+The purpose of this project was to make a part of a tcsh shell.
+The conditions were to make the minishell able to use every bin commands like " ls " or " rm ".
 
-The conditions were that we had to manage the -l, -R, -r, -d and -t function and the </br>
-fact that they can be combined.
+Next to that, we needed to remake " cd ", " env ", " exit " and make " setenv " and " unsetenv ".
