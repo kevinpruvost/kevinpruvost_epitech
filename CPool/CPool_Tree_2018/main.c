@@ -7,11 +7,5 @@ void my_putchar(char c)
 
 int main(int argv, char **argc)
 {
-    int ah;
-
-    if (argv == 2)
-        ah = atoi(argc[1]);
-    else
-        return (84);
-    tree(ah);
+    tree(5);
 }
