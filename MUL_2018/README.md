@@ -1,6 +1,6 @@
 # MUL_2018
 
-## Projects of the C Graphical modules of the Epitech's 1st year program.
+## Projects of the "C Graphical Programming" modules of the Epitech's 1st year program.
 
 
 | Project | Language | Description |
