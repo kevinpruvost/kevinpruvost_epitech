@@ -11,7 +11,7 @@
 
 
 [101_pong]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018/101_pong_2018
-[102_architect]: 
-[103_cipher]: 
-[104_intersection]: 
-[105_torus]: 
+[102_architect]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018/102_architect_2018
+[103_cipher]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018/103_cipher_2018
+[104_intersection]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018/104_intersection_2018
+[105_torus]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018/105_torus_2018
