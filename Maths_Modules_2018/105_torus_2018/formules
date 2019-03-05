@@ -1,0 +1,19 @@
+Bissection:
+
+calculs dans intervalle [0, 1];
+dichotomie
+formule dans pdf 105torus epitech
+a + bx + cx² + dx³ + ex⁴
+derivé : b + 2cx + 3dx² + 4ex³
+
+
+Newton:
+
+y = x - f(x) / f'(x)
+z = y - f(y) / f'(y)
+
+Sécante:
+
+z = y -  f(y) * (y - x)
+        ----------------
+          f(y) - f(x)

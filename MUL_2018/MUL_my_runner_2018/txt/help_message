@@ -1,0 +1,18 @@
+My_runner created with CSFML.
+
+USAGE
+    ./my_runner map.txt (default settings)
+                with 800*800 window resolution and 30 fps
+    OR
+
+    ./my_runner map.txt fps
+                fps :         fps limit
+
+OPTIONS
+    -h              print the usage and quit.
+
+
+USER INTERACTIONS
+     SPACE_KEY      jump.
+     P_KEY          pause.
+     ESC_KEY        (while playing) return to main menu.

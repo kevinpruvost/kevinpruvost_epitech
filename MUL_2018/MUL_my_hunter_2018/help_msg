@@ -1,0 +1,12 @@
+
+My_hunter project :
+
+       Usage : ./my_hunter (for 800x800 window and 30 fps)
+
+                  OR
+
+               ./my_hunter x_res y_res fps (for customized windows)
+               x_res : x resolution
+               y_res : y resolution
+               fps : fps limit
+
