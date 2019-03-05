@@ -6,7 +6,10 @@
 |---------|----------|-------------|
 | [PSU_my_printf_2018]         |      C      | Recreate the printf function. |
 | [PSU_my_sokoban_2018]       |       C     | Recreate a sokoban game in ASCII characters in the terminal. |
+| [PSU_my_ls_2018]       |       C     | Recreate the ls function. |
+
 
 
 [PSU_my_printf_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_printf_2018
 [PSU_my_sokoban_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_sokoban_2018
+[PSU_my_ls_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_ls_2018
