@@ -1,6 +1,6 @@
 # kevinpruvost_epitech
 
-## Every projects I've done in Epitech.
+## Projects I've done in Epitech.
 
 | Project | Description |
 |---------|-------------|
