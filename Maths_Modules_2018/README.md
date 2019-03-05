@@ -4,10 +4,10 @@
 | Project | Language | Description |
 |---------|----------|-------------|
 | [101_pong]         |      C      | Trajectory of a ball |
-| [102_architect]       |       C     |  |
-| [103_cipher]       |       C     |  |
-| [104_intersection]       |       C     |  |
-| [105_torus]       |       C     |  |
+| [102_architect]       |       C     | Point's images in a plan |
+| [103_cipher]       |       C     | Encrypt & decrypt a message |
+| [104_intersection]       |       C     | Compute if rays cross some simple geometric shapes. |
+| [105_torus]       |       C     | Compute if rays cross a torus. |
 
 
 [101_pong]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018/101_pong_2018
