@@ -9,3 +9,8 @@ We had to make it only playable on the Linux terminal and with ASCII characters 
 
 Needless to say, the "ncurses" library was fundamental for this project.
 
+![image](https://user-images.githubusercontent.com/48088392/53840967-d656bc00-3f9b-11e9-9793-bafc14dcf082.png)
+
+![image](https://user-images.githubusercontent.com/48088392/53841009-eb334f80-3f9b-11e9-8fa9-e6f53effef80.png)
+
+![image](https://user-images.githubusercontent.com/48088392/53841020-f2f2f400-3f9b-11e9-9633-399a6216fda1.png)
