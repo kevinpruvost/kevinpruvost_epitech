@@ -19,7 +19,7 @@ But the sorting had to be made only with 2 lists and with specific commands : </
 | [rrb]     | rotate l_b toward the end, the last element will become the first. |
 | [rrr]      | rra and rrb at the same time. |
 
-| Project | Language | Description |
-|---------|----------|-------------|
-| [CPE_BSQ_2018]         |      C      | Find the biggest square in a specific map. |
-| [CPE_pushswap_2018]       |       C     | Sort a list of numbers using two lists only and with specific commands. |
+| Project | Language |
+|---------|----------|
+| [CPE_BSQ_2018]         |      C      |
+| [CPE_pushswap_2018]       |       C     |
