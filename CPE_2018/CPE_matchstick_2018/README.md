@@ -11,11 +11,11 @@ It looks like this :
 
 Size : 3              Size : 5
 
-  I                       I
- III                     III
-IIIII                   IIIII
-                       IIIIIII
-                      IIIIIIIII
+  I                       I </br>
+ III                     III </br>
+IIIII                   IIIII </br>
+                       IIIIIII </br>
+                      IIIIIIIII </br>
                       
 The purpose of this 2-players game is to make the opponent take the last matchstick.
 For each turn, the players have to take at least 1 matchstick to the maximum authorized by the limit argument. </br>
