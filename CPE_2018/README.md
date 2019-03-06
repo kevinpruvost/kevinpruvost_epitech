@@ -8,7 +8,7 @@
 | [CPE_pushswap_2018]       |       C     | Sort a list of numbers using two lists only and with specific commands. |
 | [CPE_matchstick_2018]       |       C     | "Matchstick" game to program with an AI which should be unbeatable. |
 | [CPE_getnextline_2018]       |       C     | Function that returns the next line of a file descriptor. |
-| [CPE_solostumper_1_2018]       |       C     | An project-exam we had to make in 4 hours. |
+| [CPE_solostumper_1_2018]       |       C     | A project-exam we had to make in 4 hours. |
 
 
 
