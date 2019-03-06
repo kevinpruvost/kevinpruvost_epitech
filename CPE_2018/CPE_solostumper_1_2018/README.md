@@ -1,0 +1,8 @@
+# CPE_solostumper_1_2018
+
+## A project-exam we had to make in 4 hours.
+
+The solo stumpers are sessions where we had to make a program alone (there were 3 different subjects to avoid cheating)</br>
+during 4 hours and make it as rigorous as possible by making a strong error management.
+
+We had 6 tries to complete this module and I succeeded at the first try.
