@@ -15,5 +15,5 @@ The purpose of this 2-players game is to make the opponent take the last matchst
 For each turn, the players have to take at least 1 matchstick to the maximum authorized by the limit argument. </br>
 Each matchstick they take have to be on the same line.
 
-So, for this project, the second player is an AI we had to make.
+So, for this project, the second player is an AI we had to make.</br>
 My AI won 90% of every tests of the Epitech bot.
