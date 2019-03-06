@@ -3,7 +3,7 @@
 
 | Project | Language | Description |
 |---------|----------|-------------|
-| [101_pong]         |      C      | Trajectory of a ball |
+| [101_pong]         |      C, C++     | Trajectory of a ball |
 | [102_architect]       |       C     | Point's images in a plan |
 | [103_cipher]       |       C     | Encrypt & decrypt a message |
 | [104_intersection]       |       C     | Compute if rays cross some simple geometric shapes. |
