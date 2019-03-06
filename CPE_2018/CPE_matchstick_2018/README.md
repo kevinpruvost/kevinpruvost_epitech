@@ -8,15 +8,9 @@ In this game, you have varied configurations of matchsticks due to a size argume
 of matchsticks to take.
 
 It looks like this :
-
-Size : 3              Size : 5
-
-  I                       I </br>
- III                     III </br>
-IIIII                   IIIII </br>
-                       IIIIIII </br>
-                      IIIIIIIII </br>
-                      
+                    
+![image](https://user-images.githubusercontent.com/48088392/53892527-c33ffc80-402c-11e9-99e4-008f24215720.png)
+                    
 The purpose of this 2-players game is to make the opponent take the last matchstick.
 For each turn, the players have to take at least 1 matchstick to the maximum authorized by the limit argument. </br>
 Each matchstick they take have to be on the same line.
