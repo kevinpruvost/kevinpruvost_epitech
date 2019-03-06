@@ -6,8 +6,8 @@
 |---------|----------|-------------|
 | [CPE_BSQ_2018]         |      C      | Find the biggest square in a specific map. |
 | [CPE_pushswap_2018]       |       C     | Sort a list of numbers using two lists only and with specific commands. |
-| [CPE_matchstick_2018]       |       C     |  |
-| [CPE_getnextline_2018]       |       C     |  |
+| [CPE_matchstick_2018]       |       C     | "Matchstick" game to program with an AI which should be unbeatable. |
+| [CPE_getnextline_2018]       |       C     | Function that returns the next line of a file descriptor. |
 
 
 
