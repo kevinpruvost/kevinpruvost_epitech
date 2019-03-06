@@ -19,5 +19,5 @@ So, for this project, the second player is an AI we had to make.</br>
 My AI won 90% of every tests of the Epitech bot.
 
 ![image](https://user-images.githubusercontent.com/48088392/53894156-e3bd8600-402f-11e9-928d-798f40876788.png)
-![image](https://user-images.githubusercontent.com/48088392/53894180-f0da7500-402f-11e9-8b9c-f259bebd8a75.png)
+![image](https://user-images.githubusercontent.com/48088392/53894279-22ebd700-4030-11e9-8a06-51050c91925f.png)
 ![image](https://user-images.githubusercontent.com/48088392/53894211-ff289100-402f-11e9-806e-d11f80dbc5d4.png)
