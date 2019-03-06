@@ -16,3 +16,4 @@ For each turn, the players have to take at least 1 matchstick to the maximum aut
 Each matchstick they take have to be on the same line.
 
 So, for this project, the second player is an AI we had to make.
+My AI won 90% of every tests of the Epitech bot.
