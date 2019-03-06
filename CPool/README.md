@@ -2,7 +2,7 @@
 
 ## C Pool Projects
 
-I'll upload other projects when I will have the time for it.
+I'll upload other projects when I will have time for it.
 
 | Project | Language | Description |
 |---------|----------|-------------|
