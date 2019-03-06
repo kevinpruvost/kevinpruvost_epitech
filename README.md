@@ -5,7 +5,7 @@
 | Project | Description |
 |---------|-------------|
 | [CPool]       | "C Pool" projects |
-| [MUL_2018]         | "C Graphical" Modules' Projects |
+| [MUL_2018]         | "C Graphical Programming" Modules' Projects |
 | [CPE_2018]         |  "Elementary Programming in C" Modules' Projects |
 | [PSU_2018]         |  "Unix System Programming" Modules' Projects |
 | [Maths_Modules_2018]         | Mathematics Modules' Projects |
