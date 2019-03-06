@@ -7,6 +7,6 @@ during 4 hours and make it as rigorous as possible by making a strong error mana
 
 We had 6 tries to complete this module and I succeeded at the first try.
 
-The program I had to make was named "countwords", it was a program which counted in a sentence the  </br>
-number of times a word appeared. I had to display them in the order they appeared, and only alphanumeric </br>
-characters had to be treated.
+The program I had to make was named "countwords", it was a program which was counting in a sentence the  </br>
+number of times the words present in the sentence appeared. I had to display them in the order they appeared, </br>
+and only alphanumeric characters had to be treated.
