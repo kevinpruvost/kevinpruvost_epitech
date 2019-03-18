@@ -19,7 +19,7 @@
 
 If you want to download a specific folder of my code, type in Linux terminal :<br></br>
 
-svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/$PATH_TO_FILE
+svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/$PATH_TO_FILE <br></br>
 
 Example : 
 If you want to download the CPool folder.<br></br>
