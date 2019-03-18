@@ -8,6 +8,8 @@ The purpose of this project was to create a Tower Defense game, we had about 1 m
 
 This project was also our first big project. We wrote ~ 5900 lines of code.
 
+Once again, my project was on Shrek's Universe.
+
 ![image](https://user-images.githubusercontent.com/48088392/54557930-9ee50800-49bc-11e9-8ea0-2dd07e5c9809.png)
 
 ![image](https://user-images.githubusercontent.com/48088392/54557958-b7552280-49bc-11e9-8caa-e07aaba953e8.png)
