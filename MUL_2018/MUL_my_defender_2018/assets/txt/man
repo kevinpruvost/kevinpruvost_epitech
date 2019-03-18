@@ -1,0 +1,17 @@
+.\" Manpage for Shrek Tower Defense.
+.\"
+.TH man 8 "15 March 2019" "1.0" "Shrek Tower Defense manual"
+.SH NAME
+Shrek Tower Defense - My_defender project
+.SH SYNOPSIS
+./my_defender
+.SH DESCRIPTION
+Shrek Tower Defense is a Tower-Defense game inspired by the Shrek's Universe (or Shrek's Swamp), the objective of the game is just to survive the longest time possible to get the best score you can make.
+.SH OPTIONS
+-h option : help page
+.SH SEE ALSO
+Nothing. 
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Kevin Pruvost & Adrien Heros

@@ -1,0 +1,40 @@
+    Project My_defender by Kevin Pruvost & Adrien Heros
+
+
+    To launch the game :
+       ./my_defender
+
+
+       Commands :
+       
+       - ECHAP : 'Go to main menu' or 'Quit the game'.
+       - Right click : 'Cancel the action' while playing.
+       - A : 'Select Fiona Tower' while playing.
+       - Z : 'Select Shrek Tower' while playing.
+       - E : 'Select Donkey Tower' while playing.
+       - R : 'Select Dragon Tower' while playing.
+
+       All the other commands are done with left mouse clicks.
+
+            Useful informations :
+            
+                If you want to exit from the map editor, you have to make
+                a complete map. To make it fast, just press the RANDOM button.
+
+                Turrets are intelligent, if they are meant to slow the ennemies
+                they will not spam them, they will change to another target to slow
+                as much ennemies as possible contrary to DOT turrets, but there is a
+                reason, DOTs can accumulate.
+
+       Pro tips :
+
+           - Shreks have technically the best DPS.
+           - Fionas can finish ennemies more easily.
+           - Knights have armor, Dragons ignore it, but Dragons do not focus Knights !
+           - Donkeys can save your games by slowing ennemies, so use it !
+           - Upgrading donkeys is useless, ennemis will not be more slowed.
+           - You can place turrets next to Shrek's House, use this advantage,
+           very useful, especially when the map is overfilled with path squares.
+
+
+
