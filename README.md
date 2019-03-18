@@ -17,3 +17,10 @@
 [PSU_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018
 [Maths_Modules_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018
 
+If you want to download a specific folder of my code, type in Linux terminal :<br></br>
+
+svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/$PATH_TO_FILE
+
+Example : 
+If you want to download the CPool folder.<br></br>
+svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/CPool 
