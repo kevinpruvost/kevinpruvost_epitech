@@ -24,3 +24,5 @@ svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/$PATH_TO_F
 Example : 
 If you want to download the CPool folder.<br></br>
 svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/CPool 
+
+If you are on windows, then take the url related to the file or folder you want to download and download it on <br>https://kinolien.github.io/gitzip/</br>
