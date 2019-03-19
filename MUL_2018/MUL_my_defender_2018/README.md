@@ -10,7 +10,7 @@ This project was also our first big project. We wrote ~ 5900 lines of code.
 
 I made a map editor, 4 different types of towers, an upgrade, sell and a free placing system (just limited to dirt paths and
 
-user interface), and a settings menu to modify sounds' and music's volume.
+user interface), and a settings menu to modify sounds' and music's volume and a saveable score system.
 
 Once again, my project was on Shrek's Universe.
 
