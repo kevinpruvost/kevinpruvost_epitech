@@ -22,7 +22,7 @@ If you want to download a specific folder of my code, type in Linux terminal :<b
 
 Example : 
 If you want to download the CPool folder.<br>
-> svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/CPool </br></br>
+> svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/CPool </br>
 
 If you are on Windows, then take the url related to the file or folder you want to download and download it on <br>https://kinolien.github.io/gitzip/</br>
 You'll have to generate a token on this site to be allowed to download a project's specific content.
