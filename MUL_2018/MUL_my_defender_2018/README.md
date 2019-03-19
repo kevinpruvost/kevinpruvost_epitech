@@ -8,6 +8,10 @@ The purpose of this project was to create a Tower Defense game, we had about 1 m
 
 This project was also our first big project. We wrote ~ 5900 lines of code.
 
+I made a map editor, 4 different types of towers, upgrade, sell and a free placing system (just limited to dirt paths and
+
+user interface), and a settings menu to modify sounds' and music's volume.
+
 Once again, my project was on Shrek's Universe.
 
 ![image](https://user-images.githubusercontent.com/48088392/54557930-9ee50800-49bc-11e9-8ea0-2dd07e5c9809.png)
