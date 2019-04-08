@@ -18,11 +18,13 @@
 [Maths_Modules_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018
 
 If you want to download a specific folder of my code, type in Linux terminal :<br>
-svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/$PATH_TO_FILE</br>
+> svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/$PATH_TO_FILE</br>
 
 Example : 
 If you want to download the CPool folder.<br>
-svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/CPool </br></br>
+> svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/CPool </br>
 
-If you are on Windows, then take the url related to the file or folder you want to download and download it on <br>https://kinolien.github.io/gitzip/</br>
+If you are on Windows, then take the url related to the file or folder you want to download and download it on 
+> https://kinolien.github.io/gitzip/</br>
+
 You'll have to generate a token on this site to be allowed to download a project's specific content.
