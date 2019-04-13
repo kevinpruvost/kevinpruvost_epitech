@@ -9,3 +9,7 @@ We had to make it only playable on the Linux terminal and with ASCII characters 
 for the first player and the pid of the first player's program and a map given in arguments for the second player.
 
 The main goal of this project was to learn and understand the signal.h library.
+
+![image](https://user-images.githubusercontent.com/48088392/56083785-fe063300-5e29-11e9-8c04-e867414b603d.png)
+![image](https://user-images.githubusercontent.com/48088392/56083796-27bf5a00-5e2a-11e9-8b45-48193a56846f.png)
+![image](https://user-images.githubusercontent.com/48088392/56083804-3b6ac080-5e2a-11e9-9fc9-ce325852fe0a.png)
