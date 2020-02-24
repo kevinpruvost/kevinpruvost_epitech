@@ -9,7 +9,7 @@
 | [CPE_2018]         |  "Elementary Programming in C" Modules' Projects |
 | [PSU_2018]         |  "Unix System Programming" Modules' Projects |
 | [Maths_Modules_2018]         | Mathematics Modules' Projects |
-| [JAM_Space_2019] | Jam Game |
+| [JAM_Space_2019] | Jam Game done with the SFML C++ library |
 
 
 [CPool]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/CPool
