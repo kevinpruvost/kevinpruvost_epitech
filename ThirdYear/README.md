@@ -4,7 +4,7 @@
 |---------|-------------|-------------------|
 | [Babel] | A Skype-like software with features like contacts system, audio calls, messages system, ... | C++, Boost lib, Qt |
 | [R-Type] | | C++, Boost lib |
-| [Dashboard] |  | PHP, JavaScript, HTML, CSS, Laravel, ReactJS |
+| [Dashboard] |  | PHP, JavaScript, HTML, CSS, Laravel, ReactJS, MySQL |
 | [Functional-Evalexpr] |  | Haskell |
 | [Hal] |  | Haskell |
 
