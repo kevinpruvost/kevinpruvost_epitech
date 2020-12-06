@@ -1,12 +1,12 @@
 # Third Year
 
-| Project | Description |
-|---------|-------------|
-| [Babel] | A Skype-like software with features like contacts system, audio calls, messages system, ... |
-| [R-Type] | |
-| [Dashboard] | |
-| [Functional-Evalexpr] | |
-| [Hal] | |
+| Project | Description | Technologies used |
+|---------|-------------|-------------------|
+| [Babel] | A Skype-like software with features like contacts system, audio calls, messages system, ... | C++, Boost lib, Qt |
+| [R-Type] | | C++, Boost lib |
+| [Dashboard] |  | PHP, JavaScript, HTML, CSS, Laravel, ReactJS |
+| [Functional-Evalexpr] |  | Haskell |
+| [Hal] |  | Haskell |
 
 [Babel]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Babel
 [R-Type]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/R-type
