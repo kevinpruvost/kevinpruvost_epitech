@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+#app-bite
+{
+    background-color: khaki;
+}
+
+.card-header
+{
+    background-color: rgba(179, 236, 238,1.0) !important;
+}

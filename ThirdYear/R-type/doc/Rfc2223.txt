@@ -1,0 +1,242 @@
+Network Working Group                                        K. Pruvost
+Request for Comments: 2346                                     Q. Felix                                                   
+STD: None                                                   B. Martinet
+Obsolete: 1337                                                M. Gillet
+Category: Informational                    R-Type project Epitech Nancy
+                                                          November 2020
+
+    
+            Network Communication Protocol for R-Type Project
+
+Abstract
+
+	This document describes the network protocol of the R-Type
+	project. It specifies the header code of each type of request,
+	the type of data they contain and when they are used.
+
+Status of This Memo
+
+       This document specifies an Informational protocol for the
+       communication client/server of the R-Type project.
+
+Copyright Notice
+
+       Copyright (c) 2016 All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pruvost & Felix & Martinet & Gillet    Informational      [Page 1]
+
+RFC 8008    Network Communication Protocol for R-Type    November 2020
+
+
+Table of Contents
+
+      1. Introduction .........................................1
+      2. Header Codes .........................................1
+      	 2.1 TCP NETWORK ......................................1
+	     2.2 UDP NETWORK ......................................1
+      3. Use cases ............................................2
+      	 3.1 Login to room: TCP ...............................2
+	     3.2 InGame: UDP ......................................2
+      4. Data packets description .............................3
+      	 4.1 Packet ...........................................3
+	     4.2 Data .............................................3
+
+
+1.    Introduction
+
+   This Rfc is divided in 2 section: TCP & UDP
+
+
+2.    Header Codes
+
+   2.1 	   TCP NETWORK: 000
+
+       - 001: login
+       - 002: login accept
+       - 003: error
+       - 004: logout
+       - 005: unknown
+
+   2.2 	   UDP NETWORK: 100
+
+       - 101: Input
+       - 102: InputXY
+       - 103: CreateEntity
+       - 104: CreateComponent
+       - 105: Update
+       - 106: Delete
+       - 107: Username
+       - 108: ReadyRequest
+       - 109: GameStartedAnswer
+       - 110: Logout
+
+
+
+
+
+
+
+Pruvost & Felix & Martinet & Gillet    Informational      [Page 2]
+
+RFC 8008    Network Communication Protocol for R-Type    November 2020
+
+
+3.    Use Cases
+
+
+   3.1     Login to room: TCP
+
+       - The client SHALL issue 001 with a RoomId.
+       - The server MUST answer 002 with the RoomId & the port of the room's udp server
+       	 	=> the client MAY now connect to the UDP server
+
+   3.2     InGame: UDP
+
+      - client MAY issue 101 to send a key input
+      - client MAY issue 102 to send a controller inputs
+      - client MAY issue 107 to set his username on the server
+      - Client MUST issue 108 upon connecting to the server
+        => the server MUST respond with 103 & 104 in order for the client to create entities
+      - server MUST send 105 every tick
+      - server MUST send 106 when a entity is deleted
+
+
+
+
+
+
+
+
+
+
+
+
+Pruvost & Felix & Martinet & Gillet    Informational      [Page 3]
+
+RFC 8008    Network Communication Protocol for R-Type    November 2020
+
+
+4.   Data packets description
+
+
+   4.1	   Packet:
+
+      - 0: header (request code)
+      - 1: sizeof data
+      - 3: data
+
+   4.2     Data:
+
+      no data: 005, 108, 109, 110
+         - nothing
+
+      codes: 001, 107
+         - roomId: char[]
+
+      codes: 002, 004
+         - roomId: char[]
+         - port: unsigned int
+
+      UDP input request: 101, 102
+         - inputCode: unsigned char
+
+      Entities creation: 103, 104, 106
+         - entityId: unsigned int
+   
+      UDP update: 105
+         - dataSize: unsigned int
+         - datas: unsigned char[]
+
+
+ 
+
+
+
+
+
+
+
+
+Pruvost & Felix & Martinet & Gillet    Informational      [Page 4]
+
+RFC 8008    Network Communication Protocol for R-Type    November 2020
+
+
+Author's Address
+
+	baptiste.martinet@epitech.eu
+   kevin.pruvost@epitech.eu
+   quentin.felix@epitech.eu
+   mathieu.gillet@epitech.eu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pruvost & Felix & Martinet & Gillet    Informational      [Page 5]

@@ -1,0 +1,10 @@
+*.o
+lib/*.so
+games/*.so
+arcade
+.vscode/
+games/nibbler/bestScore
+arcade1
+games/MainMenu/
+MainMenu
+games/qix/

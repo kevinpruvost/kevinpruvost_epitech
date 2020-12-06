@@ -1,0 +1,14 @@
+*.o
+zappy_server
+zappy_ai
+zappy_graphical
+test
+.vscode
+*~
+.vs
+*.so
+*.a
+html
+latex
+index.html
+*.html

@@ -1,0 +1,297 @@
+:root {
+  --backgroundColor: rgba(5, 9, 56, 0.51);
+  --colorShadeShadow: rgba(113, 236, 255, 0.51);
+  --colorShadeA: rgb(56, 54, 49);
+  --colorShadeB: rgb(223, 143, 111);
+  --colorShadeC: rgb(232, 162, 150);
+  --colorShadeD: rgba(255, 255, 250, 0.809);
+  --colorShadeE: rgba(133, 227, 241, 0.721);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+* {
+  box-sizing: border-box;
+}
+*::before, *::after {
+  box-sizing: border-box;
+}
+
+.connectionButton
+{
+  background-color: green;
+}
+
+body
+{
+  background-color: #dff9fb;
+}
+
+.zizi
+{
+  background-color: #dff9fb;
+  display: flex;
+  justify-content: left;
+  align-items: stretch;
+}
+
+.inpouteText {
+    position: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    display: block;
+    width: 80%;
+}
+
+.buttons {
+    align-items: stretch;
+    justify-content: center;
+    display: table-column;
+    text-align: center;
+    width: 40%;
+    margin-left:3.5%; margin-right: 3.5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.widgets {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: table-column;
+    text-align: center;
+}
+
+.closeSpacer {
+  position: absolute;
+  right: 7%;
+  display: flex;
+  justify-content: right;
+}
+
+.paragraph {
+  text-align: left;
+}
+
+.paragraphCentered {
+  text-align: center;
+}
+
+button, #widgetView {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 1.5rem;
+    color:var(--colorShadeA);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: inherit;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#widgetView {
+  text-align: center;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.big-button {
+   padding: 1em 2em;
+   border: 2px solid var(--colorShadeShadow);
+  border-radius: 1em;
+  background: var(--colorShadeE);
+transform-style: preserve-3d;
+   transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+.big-button::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--colorShadeC);
+  border-radius: inherit;
+    box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeShadow);
+ transform: translate3d(0, 0.75em, -1em);
+     transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+
+.big-button:hover {
+  background: var(--colorShadeD);
+  transform: translate(0, 0.375em);
+}
+
+.big-button:hover::before {
+  transform: translate3d(0, 0.75em, -1em);
+}
+
+.big-button:active {
+    transform: translate(0em, 0.75em);
+}
+
+.big-button:active::before {
+    transform: translate3d(0, 0, -1em);
+    box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.App {
+    width: 30%;
+}
+
+.column {
+    width: 100%;
+    margin-top: 20px;
+    display: table;
+}
+
+.droppable-col {
+    padding: 20px 20px 20px 20px;
+    border-radius: 7px;
+    display: table-row;
+    width: 100%;
+}
+
+.item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #70ebf19c;
+    color: rgb(45, 52, 54);
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.titlePart
+{
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.item.dragging {
+    background-color: #87c5e6a0;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 125%;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 27.5%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.icon:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.back_icon {
+  background-color: rgba(0, 0, 0, 255);
+  opacity: 0.1;
+}
+
+.large_icon {
+  background-size: contain;
+  display: table;
+  margin:auto;
+  width: 88px;
+  height: 88px;
+}
+
+span.icon, .back_icon {
+    opacity: 0.7;
+    background-size: contain;
+    display: table;
+    margin:auto;
+    width: 60px;
+    height: 60px;
+    align-self: center;
+}
+
+.textAreaMinSize {
+  width: 100%;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.weather {
+    background: url(https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-8.png) no-repeat;
+}
+
+.coinbase {
+    background: url(https://www.coinbase.com/assets/mobile/store_listing_icon-ffbf3ec7c91090dd1f403464fad41560dac96ce04b7d86e7a459ea09c6522c18.png) no-repeat;
+}
+
+.coinbaseCurrencies {
+    background: url(https://cdn2.iconfinder.com/data/icons/bitcoin-and-mining/44/trade-512.png) no-repeat;
+}
+
+.gmail {
+  background: url(https://i.pinimg.com/originals/3c/66/f8/3c66f8917c99c4cbb2b1eb7d6ef542c4.png) no-repeat;
+}
+
+.spotify {
+  background: url(https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png) no-repeat;
+}
+
+.youtube {
+  background: url(https://img.utdstc.com/icons/youtube-android.png:200) no-repeat;
+}
+
+.love {
+  background: url(https://www.pngkit.com/png/full/32-322429_love-pink-logo-png-graphic-royalty-free-download.png) no-repeat;
+}
+
+.covid {
+  background: url(https://cdn.pixabay.com/photo/2020/04/29/07/54/coronavirus-5107715_1280.png) no-repeat;
+}
+
+.calendar {
+  background: url(https://img.icons8.com/color/452/google-calendar--v1.png) no-repeat;
+}

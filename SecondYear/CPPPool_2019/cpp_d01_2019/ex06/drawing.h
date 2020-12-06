@@ -1,0 +1,30 @@
+/*
+** EPITECH PROJECT, 2020
+** my.h
+** File description:
+** Header of mylib
+*/
+
+#ifndef DRAWING_H
+
+#include "menger.h"
+
+#include <stdint.h>
+#include <stddef.h>
+
+typedef struct point_t {
+    unsigned int x;
+    unsigned int y;
+} point_t;
+
+void create_bitmap_from_buffer(size_t size, unsigned int *buffer, char *file);
+
+void create_image(size_t size, unsigned int *b, unsigned int **img, int level);
+
+void initialize_image(size_t size, unsigned int *buffer, unsigned int **img);
+
+void draw_square(uint32_t **img, const point_t *origin, size_t s, uint32_t c);
+
+void menger_draw(coord_t p, unsigned int **img, int level);
+
+#endif

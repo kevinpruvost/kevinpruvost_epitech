@@ -1,0 +1,3 @@
+[submodule "benchmarks/googlebenchmarksetup"]
+	path = benchmarks/googlebenchmarksetup
+	url = git@gitlab.com:kevinpruvost/googlebenchmarksetup.git

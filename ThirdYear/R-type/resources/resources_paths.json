@@ -1,0 +1,87 @@
+{
+    "fonts": {
+        "default_font": "resources/fonts/computo-monospace.otf"
+    },
+    "sprites": {
+        "text_input": [ "resources/sprites/textinput.png" ],
+        "icon": [ "resources/icons/rtype.png" ],
+        "title": [ "resources/sprites/title.png" ],
+        "enemy1": [
+            "resources/sprites/enemies/enemy1_0.png",
+            "resources/sprites/enemies/enemy1_1.png",
+            "resources/sprites/enemies/enemy1_2.png",
+            "resources/sprites/enemies/enemy1_3.png",
+            "resources/sprites/enemies/enemy1_4.png",
+            "resources/sprites/enemies/enemy1_5.png"
+        ],
+        "enemy2": [
+            "resources/sprites/enemies/enemy2_0.png",
+            "resources/sprites/enemies/enemy2_1.png",
+            "resources/sprites/enemies/enemy2_2.png",
+            "resources/sprites/enemies/enemy2_3.png",
+            "resources/sprites/enemies/enemy2_4.png",
+            "resources/sprites/enemies/enemy2_5.png"
+        ],
+        "boss": [
+            "resources/sprites/enemies/boss_0.png",
+            "resources/sprites/enemies/boss_1.png",
+            "resources/sprites/enemies/boss_2.png",
+            "resources/sprites/enemies/boss_3.png",
+            "resources/sprites/enemies/boss_4.png",
+            "resources/sprites/enemies/boss_5.png"
+        ],
+        "player": [
+            "resources/sprites/player/player_0.png",
+            "resources/sprites/player/player_1.png",
+            "resources/sprites/player/player_2.png",
+            "resources/sprites/player/player_3.png",
+            "resources/sprites/player/player_4.png",
+            "resources/sprites/player/player_5.png"
+        ],
+        "enemy_projectile1": [
+            "resources/sprites/enemies/projectile1.png"
+        ],
+        "enemy_projectile2": [
+            "resources/sprites/enemies/projectile2.png"
+        ],
+        "boss_projectile": [
+            "resources/sprites/enemies/projectile3.png"
+        ],
+        "player_projectile": [
+            "resources/sprites/player/projectile.png"
+        ],
+        "heart": [
+            "resources/sprites/bonus/heart_0.png",
+            "resources/sprites/bonus/heart_1.png",
+            "resources/sprites/bonus/heart_2.png",
+            "resources/sprites/bonus/heart_3.png",
+            "resources/sprites/bonus/heart_4.png",
+            "resources/sprites/bonus/heart_5.png"
+        ],
+        "star": [
+            "resources/sprites/bonus/star_0.png",
+            "resources/sprites/bonus/star_1.png",
+            "resources/sprites/bonus/star_2.png",
+            "resources/sprites/bonus/star_3.png",
+            "resources/sprites/bonus/star_4.png",
+            "resources/sprites/bonus/star_5.png"
+        ],
+        "background": [
+            "resources/sprites/parallax.png"
+        ],
+        "button": [
+            "resources/sprites/button.png",
+            "resources/sprites/button_highlighted.png"
+        ]
+
+    },
+    "sounds": {
+        "death1": "resources/sounds/death_1.ogg",
+        "death2": "resources/sounds/death_2.ogg",
+        "death3": "resources/sounds/death_3.ogg",
+        "death4": "resources/sounds/death_4.ogg",
+        "shot": "resources/sounds/shot.ogg",
+        "hit": "resources/sounds/hit.ogg",
+        "music": "resources/sounds/music.ogg"
+    }
+}

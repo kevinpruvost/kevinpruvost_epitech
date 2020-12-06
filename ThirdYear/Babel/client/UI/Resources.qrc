@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>resources/babel.png</file>
+        <file>resources/addFriend.png</file>
+        <file>resources/callIcon.png</file>
+        <file>resources/profileIcon.png</file>
+        <file>resources/settingsIcon.png</file>
+        <file>resources/background.png</file>
+        <file>resources/connectedIcon.png</file>
+        <file>resources/disconnectedIcon.png</file>
+        <file>resources/occupiedIcon.png</file>
+        <file>resources/inCallQuiet.png</file>
+        <file>resources/inCallTalking.png</file>
+        <file>resources/mutedIcon.png</file>
+        <file>resources/unmutedIcon.png</file>
+        <file>resources/hangUpIcon.png</file>
+        <file>resources/acceptIcon.png</file>
+        <file>resources/callerIcon.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>resources/Ubuntu-Regular.ttf</file>
+        <file>resources/Ubuntu-Medium.ttf</file>
+    </qresource>
+</RCC>

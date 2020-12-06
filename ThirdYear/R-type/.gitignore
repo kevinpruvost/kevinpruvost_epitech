@@ -1,0 +1,50 @@
+#Visual studio folders
+out
+Debug
+.vscode
+.vs
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build
+build
+bin
+/client/UI/CMakeLists.txt.user
+/client/CMakeLists.txt.user
+/doc/doxygen
+r-type*
+database.db
+CMakeSettings.json
+
+benchmark

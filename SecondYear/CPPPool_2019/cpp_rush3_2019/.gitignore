@@ -1,0 +1,11 @@
+.qmake.stash
+*.h
+moc_*
+build/
+a.out
+test
+faitpaschier
+*.o
+MyGKrellm
+.vscode
+**/**/*.o

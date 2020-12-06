@@ -1,0 +1,5 @@
+*.o
+plazza
+a.out
+*oeuf.cpp
+.vscode
