@@ -1,23 +1,16 @@
 # kevinpruvost_epitech
 
-## Projects I've done in Epitech.
+## Here's every projects I've done studying at Epitech.
 
 | Project | Description |
 |---------|-------------|
-| [CPool]       | "C Pool" projects |
-| [MUL_2018]         | "C Graphical Programming" Modules' Projects |
-| [CPE_2018]         |  "Elementary Programming in C" Modules' Projects |
-| [PSU_2018]         |  "Unix System Programming" Modules' Projects |
-| [Maths_Modules_2018]         | Mathematics Modules' Projects |
-| [JAM_Space_2019] | Jam Game done with the SFML C++ library |
+| [FirstYear]  | Mostly in C language. |
+| [SecondYear] | Some advanced Bash, Assembly, Haskell, Networking and a lot of C++. |
+| [ThirdYear]  | Even more advanced C++, Haskell, Kotlin, Laravel (PHP) and ReactJS for now. |
 
-
-[CPool]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/CPool
-[MUL_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/MUL_2018
-[CPE_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/CPE_2018
-[PSU_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018
-[Maths_Modules_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/Maths_Modules_2018
-[JAM_Space_2019]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/JAM_space_2019
+[FirstYear]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear
+[SecondYear]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/SecondYear
+[ThirdYear]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear
 
 If you want to download a specific folder of my code, type in Linux terminal :<br>
 > svn export https://github.com/kevinpruvost/kevinpruvost_epitech/trunk/$PATH_TO_FILE</br>
