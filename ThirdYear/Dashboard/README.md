@@ -96,3 +96,22 @@ Now that it is launched, you just have to go on [localhost](http://localhost) to
 If you want to close the server, then just launch : 
 
 > **docker-compose down**
+
+## Screenshots
+
+### Login
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Dashboard/screenshots/login.png"/>
+
+### Register
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Dashboard/screenshots/register.png"/>
+
+### Dashboard Empty View
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Dashboard/screenshots/dashboardFirstView.png"/>
+
+### Some Widgets
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Dashboard/screenshots/dashboardWidgets1.png"/>
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Dashboard/screenshots/dashboardWidgets2.png"/>
