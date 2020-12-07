@@ -4,7 +4,9 @@
   <img src="https://r2enc-static.totalwar.com/images/icons/factions/carthage/mon_256.png" width="100">
 </p>
 
-## Here's every projects I've done studying at Epitech.
+## My Epitech projects
+
+Keep in mind that this does not represent all of my technical knowledge, I've done internships and I don't show here what I learnt working in companies.
 
 | Project | Description |
 |---------|-------------|
