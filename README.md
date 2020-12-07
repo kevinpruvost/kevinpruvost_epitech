@@ -5,7 +5,7 @@
 </p>
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/kevin-pruvost-3766a4178/">
+  <a href="https://www.linkedin.com/in/kevin-pruvost-3766a4178/" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png" width="40">
   </a>
 </p>
