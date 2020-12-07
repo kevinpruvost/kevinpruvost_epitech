@@ -1,5 +1,9 @@
 # kevinpruvost_epitech
 
+<p align="center">
+  <img src="https://r2enc-static.totalwar.com/images/icons/factions/carthage/mon_256.png" width="100">
+</p>
+
 ## Here's every projects I've done studying at Epitech.
 
 | Project | Description |
