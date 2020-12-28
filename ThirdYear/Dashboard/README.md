@@ -1,6 +1,6 @@
 # Dashboard
 
-The purpose of this project for us was to familiarize with the software platform we've chosen (Laraval & React js), we could chose other technologies like Java, .NET, node.js and many others used for our backend, frontend or the two of them.
+The purpose of this project for us was to familiarize with the software platforms we've chosen (Laravel & React js), we could chose other technologies like Java, .NET, node.js and many others used for our backend, frontend or the two of them.
 
 So, to learn that, we had to go through the creation of a dashboard. To do this, we needed to implement a web application that works like [Netvibes](https://www.netvibes.com/en).
 
