@@ -12,3 +12,18 @@ But for some levels to attain, they need to merge. For example, if an AI wants t
 
 ## Demonstration
 
+### CLI
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/SecondYear/PSU_2019/PSU_zappy_2019/screenshots/cli_1.png"/>
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/SecondYear/PSU_2019/PSU_zappy_2019/screenshots/cli_2.png"/>
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/SecondYear/PSU_2019/PSU_zappy_2019/screenshots/cli_3.png"/>
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/SecondYear/PSU_2019/PSU_zappy_2019/screenshots/cli_4.png"/>
+
+### Graphical
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/SecondYear/PSU_2019/PSU_zappy_2019/screenshots/graph_1.png"/>
+
+<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/SecondYear/PSU_2019/PSU_zappy_2019/screenshots/graph_2.png"/>
