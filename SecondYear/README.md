@@ -20,4 +20,4 @@
 [NWP_2019]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/SecondYear/NWP_2019
 [OOP_2019]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/SecondYear/OOP_2019
 [PSU_2019]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/SecondYear/PSU_2019
-[JAM_Space_2019]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/JAM_space_2019
+[JAM_Space_2019]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/SecondYear/JAM_space_2019
