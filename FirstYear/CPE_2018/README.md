@@ -12,8 +12,8 @@
 
 
 
-[CPE_BSQ_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/CPE_2018/CPE_BSQ_2018
-[CPE_pushswap_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/CPE_2018/CPE_pushswap_2018
-[CPE_matchstick_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/CPE_2018/CPE_matchstick_2018
-[CPE_getnextline_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/CPE_2018/CPE_getnextline_2018
-[CPE_solostumper_1_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/CPE_2018/CPE_solostumper_1_2018
+[CPE_BSQ_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/CPE_2018/CPE_BSQ_2018
+[CPE_pushswap_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/CPE_2018/CPE_pushswap_2018
+[CPE_matchstick_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/CPE_2018/CPE_matchstick_2018
+[CPE_getnextline_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/CPE_2018/CPE_getnextline_2018
+[CPE_solostumper_1_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/CPE_2018/CPE_solostumper_1_2018
