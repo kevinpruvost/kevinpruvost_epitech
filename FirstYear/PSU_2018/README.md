@@ -12,8 +12,8 @@
 
 
 
-[PSU_my_printf_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_printf_2018
-[PSU_my_sokoban_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_sokoban_2018
-[PSU_my_ls_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_my_ls_2018
-[PSU_minishell1_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_minishell1_2018
-[PSU_navy_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/PSU_2018/PSU_navy_2018
+[PSU_my_printf_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/PSU_2018/PSU_my_printf_2018
+[PSU_my_sokoban_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/PSU_2018/PSU_my_sokoban_2018
+[PSU_my_ls_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/PSU_2018/PSU_my_ls_2018
+[PSU_minishell1_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/PSU_2018/PSU_minishell1_2018
+[PSU_navy_2018]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/FirstYear/PSU_2018/PSU_navy_2018
