@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#575fcf</color>
+    <color name="colorPrimaryDark">#3c40c6</color>
+    <color name="colorPrimaryLight">#0be881</color>
+    <color name="colorAccent">#34e7e4</color>
+    <color name="colorAccent2">#4bcffa</color>
+    <color name="colorPosts">#16a085</color>
+    <color name="colorFavorites">#e66767</color>
+    <color name="colorAbout">#2c3e50</color>
+    <color name="Alpha0">#00000000</color>
+    <color name="Alpha1">#02000000</color>
+</resources>

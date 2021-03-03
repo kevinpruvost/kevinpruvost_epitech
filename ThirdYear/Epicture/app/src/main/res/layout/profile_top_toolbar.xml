@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_top_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <Button
+        android:id="@+id/home_button"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@color/colorPrimary"
+        android:onClick="profile_homeButtonEffect"
+        android:text="Home"
+        android:textColor="@color/design_default_color_background" />
+
+    <Button
+        android:id="@+id/posts_button"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@color/colorPosts"
+        android:onClick="profile_postsButtonEffect"
+        android:text="Posts"
+        android:textColor="@color/design_default_color_background" />
+
+    <Button
+        android:id="@+id/favorites_button"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@color/colorFavorites"
+        android:onClick="profile_favoritesButtonEffect"
+        android:text="Favorites"
+        android:textColor="@color/design_default_color_background" />
+
+    <Button
+        android:id="@+id/about_button"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:background="@color/colorAbout"
+        android:onClick="profile_aboutButtonEffect"
+        android:text="@string/profile_about_button_name"
+        android:textColor="@color/design_default_color_background" />
+
+</LinearLayout>
