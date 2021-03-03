@@ -8,6 +8,7 @@
 | [Dashboard] | A web application containing 10 widgets interacting with external APIs like Coinbase, Youtube, ... | PHP, JavaScript, HTML, CSS, Laravel, ReactJS, MySQL |
 | [Functional-Evalexpr] | A calculator featuring priorities. | Haskell |
 | [Hal] | A Lisp interpreter made with an Abstract Syntax Tree. | Haskell |
+| [Gomoku] | An AI project where we had to make an AI that can beat any player on the Gomoku game. | Python |
 
 [Babel]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Babel
 [R-Type]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/R-type
