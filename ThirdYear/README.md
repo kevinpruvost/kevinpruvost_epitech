@@ -16,3 +16,4 @@
 [Dashboard]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Dashboard
 [Functional-Evalexpr]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Functional-Evalexpr
 [Hal]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Hal
+[Gomoku]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Gomoku
