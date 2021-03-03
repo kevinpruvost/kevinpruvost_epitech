@@ -1,26 +1,46 @@
-module Wolfram where
-
+-- Haskell Std includes
 import System.Environment
 import System.Exit
 import Data.Char
 
-import Tools
+-- Files includes
+import Wolfram
+import ParseArgs
 
--- (rule, gen start, nb lines, window width, move)
+myExitWith :: Int -> IO a
+myExitWith 0 = exitWith (ExitSuccess)
+myExitWith n = do
+    putStrLn "./wolfram --rule 0--255\n"
+    putStrLn "--rule : ruleset to use"
+    putStrLn "--start : starting generation (default : 0)"
+    putStrLn "--lines : nb of lines to display (default : infinite)"
+    putStrLn "--window : cells per line (default : 80)"
+    putStrLn "--move : translation applied on the window"
+    exitWith (ExitFailure 84)
 
-wolframLoop :: (Int, Int, Int, Int, Int) -> [Int] -> IO()
-wolframLoop (a, b, c, d, e) z
-    | b == 0 && c /= 0 = do
-        printLine z d e
-        let list = (compute a z)
-        wolframLoop (a, b, c - 1, d, e) list
-    | b > 0 && c /= 0 = do
-        let list = (compute a z)
-        wolframLoop (a, b - 1, c, d, e) list
-    | c == 0 = return ()
-    | otherwise = error "wolframLoop"
+identifyError :: (Int, Int, Int, Int, Int) -> Int
+identifyError (a, b, c, d, e)
+    | a < 0 || a > 255 = 84
+    | b < 0 = 84
+    | c <= 0 && c /= -84 = 84
+    | d <= 0 = 84
+    | otherwise = 0
 
-wolfram :: (Int, Int, Int, Int, Int) -> IO()
-wolfram (a, b, c, d, e) = do
-    let list = [1] -- createBaseLine (b, c, d, e)
-    wolframLoop (a, b, c, d, e) list
+main = do
+    args <- getArgs
+
+    if ((parseBug args True) == False || (parseIsEmpty args) == False) then
+        myExitWith 84
+    else
+        return ()
+
+    let params = parseParams args (0, 0, -84, 80, 0)
+
+    let mainExitCode = identifyError params
+
+    if (mainExitCode == 0) then
+        wolfram params
+    else
+        return ()
+
+    myExitWith mainExitCode
