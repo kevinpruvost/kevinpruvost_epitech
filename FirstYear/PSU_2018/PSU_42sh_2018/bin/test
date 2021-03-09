@@ -1,0 +1,81 @@
+#!/usr/bin/env bash
+
+BINARY="./42sh"
+
+RED="\e[91m"
+RESET="\e[0m"
+CYAN="\e[36m"
+GREEN="\e[92m"
+
+success=0
+skipped=0
+failures=0
+
+if [ ! -x "$BINARY" ]; then
+    read -r -p "Binary not found, would you like to build it now? (Y/n) " input
+
+    if [ "$input" != "y" && "$input" != "Y" ]; then
+        echo "Ok... build it yourself then!"
+        exit 0
+    fi
+
+    make
+fi
+
+for test in test/*.test; do
+    failed=0
+
+    TEST_NAME=""
+    TEST_EXEC=""
+    TEST_SKIP=""
+    TEST_INIT=""
+    TEST_TERM="xterm-256color"
+
+    # Load the test configuration.
+    source "$test"
+
+    # Check if the test has to be skipped.
+    if [ "$TEST_SKIP" ]; then
+        let "skipped = skipped + 1"
+        echo "Skipping test '$TEST_NAME'..."
+
+        continue;
+    fi
+
+    GOT_OUTPUT=$(echo -e "$TEST_EXEC" | TERM="$TEST_TERM" $TEST_INIT ./42sh)
+    GOT_STATUS=$?
+    EXP_OUTPUT=$(echo -e "$TEST_EXEC" | TERM="$TEST_TERM" $TEST_INIT tcsh -f 2>&1)
+    EXP_STATUS=$?
+
+    diff <(echo "$EXP_OUTPUT") <(echo "$GOT_OUTPUT") > /dev/null
+
+    # Check output
+    if [ "$?" -ne 0 ]; then
+        failed=1
+
+        echo -e "$TEST_NAME: ${RED}output differs${RESET}"
+        diff -yd <(echo "$EXP_OUTPUT") <(echo "$GOT_OUTPUT")
+    fi
+
+    # Check exit status
+    if [ "$GOT_STATUS" -ne "$EXP_STATUS" ]; then
+        failed=1
+
+        echo -e "$TEST_NAME: ${RED}status code differs${RESET}"
+        diff -yd <(echo "$EXP_STATUS") <(echo "$GOT_STATUS")
+    fi
+
+    if [ "$failed" -eq 1 ]; then
+        let "failures = failures + 1"
+    else
+        let "success = success + 1"
+    fi
+done
+
+echo -e "Success: ${GREEN}${success}${RESET} | Failures: ${RED}${failures}${RESET} | Skipped: ${skipped}"
+
+if [ "$failures" -ne 0 ]; then
+    exit 1
+fi
+
+exit 0

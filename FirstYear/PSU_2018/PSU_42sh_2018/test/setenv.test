@@ -1,0 +1,11 @@
+TEST_NAME="setenv (builtin)"
+TEST_INIT="env -i"
+TEST_TERM="xterm-256color"
+TEST_EXEC=$(cat <<EOF
+    setenv titi
+    setenv hello
+    setenv toto tata
+    unsetenv titi
+    unsetenv tata
+EOF
+)

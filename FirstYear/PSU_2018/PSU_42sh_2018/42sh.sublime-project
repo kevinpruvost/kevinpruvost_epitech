@@ -1,0 +1,33 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "settings":
+    {
+        "SublimeLinter.linters.gcc.include_dirs":
+        [
+            "${project_path}/include",
+            "${project_path}/lib/libmy/include",
+            "${project_path}/lib/liblist/include"
+        ],
+        "SublimeLinter.linters.gcc.c_extra_flags":
+        [
+            "-Wall",
+            "-Wextra",
+            "-fsyntax-only",
+            "-O2",
+            "-Wuninitialized",
+            "-Wshadow",
+            "-Wno-unused-parameter",
+            "-pipe",
+            "-Wl,-z,defs",
+            "-fstack-protector",
+            "-fstack-clash-protection",
+            "-fasynchronous-unwind-tables",
+            "-D_GNU_SOURCE"
+        ]
+    }
+}

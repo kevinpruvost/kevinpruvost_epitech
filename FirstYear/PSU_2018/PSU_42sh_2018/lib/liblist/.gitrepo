@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://git.abrignon.dev/adrienbrignon/liblist
+	branch = master
+	commit = 772f37fc7a6c9db5026097a50e8627e538338c5c
+	parent = a613cbff72b390b02d277d14fc9cfad6f5646f62
+	method = merge
+	cmdver = 0.4.0

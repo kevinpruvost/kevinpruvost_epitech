@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+TEST_NAME="echo (builtin)"
+TEST_TERM="xterm-256color"
+TEST_EXEC=$(cat <<EOF
+    echo -n
+    echo hello
+    echo -n -n
+    echo -n Hello world!
+EOF
+)

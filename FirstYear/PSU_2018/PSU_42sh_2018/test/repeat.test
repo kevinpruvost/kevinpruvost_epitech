@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+TEST_NAME="repeat (builtin)"
+TEST_TERM="xterm-256color"
+TEST_EXEC=$(cat <<EOF
+    repeat 10 echo 42sh
+    repeat 0 pwd
+    repeat 1 imnotacommand
+EOF
+)

@@ -1,0 +1,27 @@
+stages:
+  - build
+  - tests
+
+build:
+  stage: build
+  image: gcc
+  artifacts:
+    paths:
+      - include
+      - liblist.a
+  script: make
+
+norm:
+  stage: tests
+  image: adrienbrignon/epitech-c
+  allow_failure: yes
+  script:
+    - normez -u
+
+test:
+  stage: tests
+  image: adrienbrignon/epitech-c
+  script:
+    - make test
+    - gcovr -s
+  coverage: '/lines: \d+\.\d+/'

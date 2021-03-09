@@ -1,0 +1,26 @@
+stages:
+  - build
+  - tests
+  - post-tests
+
+build:
+  stage: build
+  image: adrienbrignon/epitech-c
+  artifacts:
+    paths:
+      - 42sh
+  script:
+    - make
+
+test:
+  stage: tests
+  image: adrienbrignon/epitech-c
+  script:
+    - bin/test
+
+norm:
+  stage: post-tests
+  image: adrienbrignon/epitech-c
+  allow_failure: yes
+  script:
+    - normez -mu

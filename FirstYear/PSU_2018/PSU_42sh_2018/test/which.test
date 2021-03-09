@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+TEST_NAME="which (builtin)"
+TEST_EXEC=$(cat <<EOF
+    which ls
+    which ps
+    which cd chdir
+    which error unknown ls
+EOF
+)
