@@ -9,6 +9,7 @@
 | [Functional-Evalexpr] | A calculator featuring priorities. | Haskell |
 | [Hal] | A Lisp interpreter made with an Abstract Syntax Tree. | Haskell |
 | [Gomoku] | An AI project where we had to make an AI that can beat any player on the Gomoku game. | Python |
+| [Koak] | Year-End project, we had to make a Kaleidoscope language compiler using LLVM. | Haskell |
 
 [Babel]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Babel
 [R-Type]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/R-type
@@ -17,3 +18,4 @@
 [Functional-Evalexpr]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Functional-Evalexpr
 [Hal]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Hal
 [Gomoku]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Gomoku
+[Koak]: https://github.com/kevinpruvost/kevinpruvost_epitech/tree/master/ThirdYear/Koak
