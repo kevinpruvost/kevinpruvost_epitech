@@ -21,8 +21,9 @@ Ou directement depuis le logiciel piskvork
 
 # SCREENSHOTS IN ACTION
 
-<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Gomoku/screenshots/capture1.PNG"/>
-<img src="https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Gomoku/screenshots/capture2.PNG"/>
+Playing             |  AI won !
+:-------------------------:|:-------------------------:
+![](https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Gomoku/screenshots/capture1.PNG)  |  ![](https://github.com/kevinpruvost/kevinpruvost_epitech/blob/master/ThirdYear/Gomoku/screenshots/capture2.PNG)
 
 # DOCUMENTATION
 piskvork: https://svn.code.sf.net/p/piskvork/code/trunk/source/doc/protocl2en.htm  
