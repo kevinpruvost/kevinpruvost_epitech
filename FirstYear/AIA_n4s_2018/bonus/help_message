@@ -1,0 +1,13 @@
+
+
+Options:
+  -h --help	Display this help.
+
+Commands:
+  -z		Move forward or move faster forward (+0.1 speed).
+  -s		Move backwards or move faster backwards (+0.1 speed).
+  -q		Turn left or turn more on the left (-0.1 rotation).
+  -d		Turn right or turn more on the right (+0.1 rotation).
+  -space	Stop the vehicle and reset the wheels' rotation.
+  -ESC		Quit the commands.
+
