@@ -1,0 +1,6 @@
+.stack-work/
+*~
+koak.cabal
+koak
+koakc
+stack.yaml.lock
