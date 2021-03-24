@@ -14,7 +14,7 @@
 </p>
 
 Keep in mind that this does not represent all of my technical knowledge, I've done internships and I don't show here what I learnt working in companies.<br/>
-My portfolio or my resume/CV would be more appropriate if you want to know more about me.
+My [portfolio](https://kevinpruvost.github.io/portfolio/) or my resume/CV (available on my portfolio) would be more appropriate if you want to know more about me.
 
 ## My Epitech projects
 
